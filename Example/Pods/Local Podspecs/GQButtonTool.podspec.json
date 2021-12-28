@@ -1,0 +1,22 @@
+{
+  "name": "GQButtonTool",
+  "version": "0.1.0",
+  "summary": "A short description of GQButtonTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1157485147@qq.com/GQButtonTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1157485147@qq.com": "1157485147@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1157485147@qq.com/GQButtonTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GQButtonTool/Classes/**/*"
+}

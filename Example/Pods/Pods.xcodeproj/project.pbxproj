@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00708220FC1076149EDF5E6D8F604DE0 /* GQButtonTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD730EFBDA92459D3C44F9BA9B35D40 /* GQButtonTool-dummy.m */; };
+		0C995AF51CD2F9CA956F408CA00CE189 /* Pods-GQButtonTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A72834124201E670292364D6C2B53F64 /* Pods-GQButtonTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A093DC15585A2A9A135378F5682BCD /* GQButtonTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C77CC839885AD9540FBC3BD5E216F947 /* GQButtonTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE4DA0C72286581D41FD17B5D58384B /* UIButton+NoConnectionClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 41492600F0CA54AB3328DC101D376D84 /* UIButton+NoConnectionClick.m */; };
+		511535C022AACD1E42B8A53229D2D37E /* Pods-GQButtonTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FEC25055FDE9E6F794168D1B886138 /* Pods-GQButtonTool_Tests-dummy.m */; };
+		77C72029BF57B436E8FB8C760AE22C07 /* Pods-GQButtonTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46CDA6657F497E6A0DCAB0F19A28C533 /* Pods-GQButtonTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8809D00DD879173D335CB722407A1CEC /* UIButton+NoConnectionClick.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBFDE8684C62DF3954884F72902B3FB /* UIButton+NoConnectionClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2838542CB508483597A9521717B29EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A312BA4FCCE397ACEF02425DDA3E9AA4 /* Pods-GQButtonTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F119E2631485F0FBE1CE017E43F0DC7 /* Pods-GQButtonTool_Example-dummy.m */; };
+		C5CCAFD7B1EC078E7FF07A11021FF924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F2062E7B1B730D35A4E6FC56521570A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27B9E6AC69695AAFC8C584E27E28CDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DC1F3718131B58AE96C4607E642235;
+			remoteInfo = "Pods-GQButtonTool_Example";
+		};
+		83AA57BD2DBC1FA629E4EF01C07D7A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2BD13BD85D96153D6688B1FD14AADB;
+			remoteInfo = GQButtonTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0980D0A32ABFE97912702A78DA9C785C /* GQButtonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GQButtonTool.debug.xcconfig; sourceTree = "<group>"; };
+		0BFF589B9D3D53CDE41C918FA9028FDA /* Pods-GQButtonTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GQButtonTool_Example-Info.plist"; sourceTree = "<group>"; };
+		0D3A75D2126AD637FDDA56279C9596DE /* Pods-GQButtonTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQButtonTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		27EC9181DCB01EE54439D4654D6053FD /* GQButtonTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GQButtonTool; path = GQButtonTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2920B6EE802E701AFA881C6C1155E027 /* Pods-GQButtonTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GQButtonTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3407A6A027B24750BEDAE84C865BDEAF /* Pods-GQButtonTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GQButtonTool_Example"; path = Pods_GQButtonTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E28FE92179E89E854161DC7EAD0DD1 /* Pods-GQButtonTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GQButtonTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36703415CECCB18F873ACC1FE9E28067 /* GQButtonTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GQButtonTool-Info.plist"; sourceTree = "<group>"; };
+		39965A86FF43D72E43AB6823B230551B /* GQButtonTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GQButtonTool.modulemap; sourceTree = "<group>"; };
+		3FD730EFBDA92459D3C44F9BA9B35D40 /* GQButtonTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GQButtonTool-dummy.m"; sourceTree = "<group>"; };
+		41492600F0CA54AB3328DC101D376D84 /* UIButton+NoConnectionClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+NoConnectionClick.m"; path = "GQButtonTool/Classes/UIButton+NoConnectionClick.m"; sourceTree = "<group>"; };
+		46CDA6657F497E6A0DCAB0F19A28C533 /* Pods-GQButtonTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GQButtonTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		490EDC3E6C52C747429D7F8478E3424B /* GQButtonTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GQButtonTool.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		5EBCBC4CE3472A6C0CC6D986B8B572BC /* Pods-GQButtonTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GQButtonTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E63E680F5D6982DE90DDCFC3B3D9D66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7E91F7A3E9B442F6319E8B92A55F97DC /* Pods-GQButtonTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GQButtonTool_Example.modulemap"; sourceTree = "<group>"; };
+		7F119E2631485F0FBE1CE017E43F0DC7 /* Pods-GQButtonTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GQButtonTool_Example-dummy.m"; sourceTree = "<group>"; };
+		86D7C61E167429F5DF41AD61AC005ED0 /* Pods-GQButtonTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQButtonTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3D6F48C225032EFDF77AE9B6B298048 /* Pods-GQButtonTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GQButtonTool_Tests"; path = Pods_GQButtonTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72834124201E670292364D6C2B53F64 /* Pods-GQButtonTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GQButtonTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AC97623F7E30DD04BFA3720C40979C85 /* Pods-GQButtonTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQButtonTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBBB0528E1147FFEA9D545B8D827CB4 /* Pods-GQButtonTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GQButtonTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACD4DE81DFAC2221BD3B1AA095195433 /* Pods-GQButtonTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GQButtonTool_Tests.modulemap"; sourceTree = "<group>"; };
+		AECFC1AF3B2190A1962BD5C37BEA129D /* Pods-GQButtonTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GQButtonTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B1A22DF29311988FBFCFF220FA0BC1CF /* GQButtonTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GQButtonTool-prefix.pch"; sourceTree = "<group>"; };
+		C77CC839885AD9540FBC3BD5E216F947 /* GQButtonTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GQButtonTool-umbrella.h"; sourceTree = "<group>"; };
+		C9C75D7E488AB4DB63254BAB75D3B77E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D7FEC25055FDE9E6F794168D1B886138 /* Pods-GQButtonTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GQButtonTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		E352F070BED1C31F9ACB5723CD2E1674 /* Pods-GQButtonTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GQButtonTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F34C7C2EDE0C34C3798DA37740196934 /* GQButtonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GQButtonTool.release.xcconfig; sourceTree = "<group>"; };
+		FDBFDE8684C62DF3954884F72902B3FB /* UIButton+NoConnectionClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+NoConnectionClick.h"; path = "GQButtonTool/Classes/UIButton+NoConnectionClick.h"; sourceTree = "<group>"; };
+		FDC919F701A98148232C807254A7ADFD /* Pods-GQButtonTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GQButtonTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A1B33CD400818EC69AAFFE1AE0FEFC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CCAFD7B1EC078E7FF07A11021FF924 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7B5BDCB7ED9EE086E07E0A597D4CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2838542CB508483597A9521717B29EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02C0BD5BB4B3532A8249CD9856C4718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2062E7B1B730D35A4E6FC56521570A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3399386E06B028EC4D72C9537537B03C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C04FD1F824C7415558ACC32C0241AC3 /* Pods-GQButtonTool_Example */,
+				7D5B107129482865658CE858EF33DF9E /* Pods-GQButtonTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C04FD1F824C7415558ACC32C0241AC3 /* Pods-GQButtonTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E91F7A3E9B442F6319E8B92A55F97DC /* Pods-GQButtonTool_Example.modulemap */,
+				FDC919F701A98148232C807254A7ADFD /* Pods-GQButtonTool_Example-acknowledgements.markdown */,
+				ACBBB0528E1147FFEA9D545B8D827CB4 /* Pods-GQButtonTool_Example-acknowledgements.plist */,
+				7F119E2631485F0FBE1CE017E43F0DC7 /* Pods-GQButtonTool_Example-dummy.m */,
+				AECFC1AF3B2190A1962BD5C37BEA129D /* Pods-GQButtonTool_Example-frameworks.sh */,
+				0BFF589B9D3D53CDE41C918FA9028FDA /* Pods-GQButtonTool_Example-Info.plist */,
+				46CDA6657F497E6A0DCAB0F19A28C533 /* Pods-GQButtonTool_Example-umbrella.h */,
+				AC97623F7E30DD04BFA3720C40979C85 /* Pods-GQButtonTool_Example.debug.xcconfig */,
+				86D7C61E167429F5DF41AD61AC005ED0 /* Pods-GQButtonTool_Example.release.xcconfig */,
+			);
+			name = "Pods-GQButtonTool_Example";
+			path = "Target Support Files/Pods-GQButtonTool_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D5B107129482865658CE858EF33DF9E /* Pods-GQButtonTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD4DE81DFAC2221BD3B1AA095195433 /* Pods-GQButtonTool_Tests.modulemap */,
+				35E28FE92179E89E854161DC7EAD0DD1 /* Pods-GQButtonTool_Tests-acknowledgements.markdown */,
+				2920B6EE802E701AFA881C6C1155E027 /* Pods-GQButtonTool_Tests-acknowledgements.plist */,
+				D7FEC25055FDE9E6F794168D1B886138 /* Pods-GQButtonTool_Tests-dummy.m */,
+				5EBCBC4CE3472A6C0CC6D986B8B572BC /* Pods-GQButtonTool_Tests-Info.plist */,
+				A72834124201E670292364D6C2B53F64 /* Pods-GQButtonTool_Tests-umbrella.h */,
+				E352F070BED1C31F9ACB5723CD2E1674 /* Pods-GQButtonTool_Tests.debug.xcconfig */,
+				0D3A75D2126AD637FDDA56279C9596DE /* Pods-GQButtonTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-GQButtonTool_Tests";
+			path = "Target Support Files/Pods-GQButtonTool_Tests";
+			sourceTree = "<group>";
+		};
+		7F12A6149D3C6E6A8249753529CD5686 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				490EDC3E6C52C747429D7F8478E3424B /* GQButtonTool.podspec */,
+				C9C75D7E488AB4DB63254BAB75D3B77E /* LICENSE */,
+				7E63E680F5D6982DE90DDCFC3B3D9D66 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B2A262F43E971D94B6F62F2E62508F51 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E823ABDE6B17A3475C1EDDC0F9C9B853 /* GQButtonTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BCF535E29BBF3D7BE952D04444BDB125 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39965A86FF43D72E43AB6823B230551B /* GQButtonTool.modulemap */,
+				3FD730EFBDA92459D3C44F9BA9B35D40 /* GQButtonTool-dummy.m */,
+				36703415CECCB18F873ACC1FE9E28067 /* GQButtonTool-Info.plist */,
+				B1A22DF29311988FBFCFF220FA0BC1CF /* GQButtonTool-prefix.pch */,
+				C77CC839885AD9540FBC3BD5E216F947 /* GQButtonTool-umbrella.h */,
+				0980D0A32ABFE97912702A78DA9C785C /* GQButtonTool.debug.xcconfig */,
+				F34C7C2EDE0C34C3798DA37740196934 /* GQButtonTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GQButtonTool";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B2A262F43E971D94B6F62F2E62508F51 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D53F18D1D213D6888CFFC3EBCDF43171 /* Products */,
+				3399386E06B028EC4D72C9537537B03C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53F18D1D213D6888CFFC3EBCDF43171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27EC9181DCB01EE54439D4654D6053FD /* GQButtonTool */,
+				3407A6A027B24750BEDAE84C865BDEAF /* Pods-GQButtonTool_Example */,
+				A3D6F48C225032EFDF77AE9B6B298048 /* Pods-GQButtonTool_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E823ABDE6B17A3475C1EDDC0F9C9B853 /* GQButtonTool */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFDE8684C62DF3954884F72902B3FB /* UIButton+NoConnectionClick.h */,
+				41492600F0CA54AB3328DC101D376D84 /* UIButton+NoConnectionClick.m */,
+				7F12A6149D3C6E6A8249753529CD5686 /* Pod */,
+				BCF535E29BBF3D7BE952D04444BDB125 /* Support Files */,
+			);
+			name = GQButtonTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3395C612454E22A2D05AA011606F586A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A093DC15585A2A9A135378F5682BCD /* GQButtonTool-umbrella.h in Headers */,
+				8809D00DD879173D335CB722407A1CEC /* UIButton+NoConnectionClick.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438113FAD8E07902F6C0EDC5A5921BF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C995AF51CD2F9CA956F408CA00CE189 /* Pods-GQButtonTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CB98A582AB8A15C4B6DF167F8403E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C72029BF57B436E8FB8C760AE22C07 /* Pods-GQButtonTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21849060387F2DAB7C2A1E2C1BC3C7D2 /* Pods-GQButtonTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0B55F8B498D0185A15A25CD3A3A9C9 /* Build configuration list for PBXNativeTarget "Pods-GQButtonTool_Tests" */;
+			buildPhases = (
+				438113FAD8E07902F6C0EDC5A5921BF2 /* Headers */,
+				981948B805C08ED26079E88CC6949C6D /* Sources */,
+				5A1B33CD400818EC69AAFFE1AE0FEFC4 /* Frameworks */,
+				7A1D703E4AAA696EB4105A83EDC74536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93010A254620B53EBB06DCD325154010 /* PBXTargetDependency */,
+			);
+			name = "Pods-GQButtonTool_Tests";
+			productName = Pods_GQButtonTool_Tests;
+			productReference = A3D6F48C225032EFDF77AE9B6B298048 /* Pods-GQButtonTool_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA2BD13BD85D96153D6688B1FD14AADB /* GQButtonTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC6CB2ED0A207E174FAF46D2D230C85 /* Build configuration list for PBXNativeTarget "GQButtonTool" */;
+			buildPhases = (
+				3395C612454E22A2D05AA011606F586A /* Headers */,
+				81F2607486583EAD89FED2639A1BB352 /* Sources */,
+				9B7B5BDCB7ED9EE086E07E0A597D4CFE /* Frameworks */,
+				659D0812D92D4DC331BC34F28A971A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GQButtonTool;
+			productName = GQButtonTool;
+			productReference = 27EC9181DCB01EE54439D4654D6053FD /* GQButtonTool */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2DC1F3718131B58AE96C4607E642235 /* Pods-GQButtonTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F4C59D993483DB4EF38117B5370D76 /* Build configuration list for PBXNativeTarget "Pods-GQButtonTool_Example" */;
+			buildPhases = (
+				B8CB98A582AB8A15C4B6DF167F8403E4 /* Headers */,
+				FBF2D4655D947A6C8C5D4CD548A58D0C /* Sources */,
+				C02C0BD5BB4B3532A8249CD9856C4718 /* Frameworks */,
+				844624B2A7307D92F66117C514082BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F88CAA5BCFDF0FD219C612AE76C397 /* PBXTargetDependency */,
+			);
+			name = "Pods-GQButtonTool_Example";
+			productName = Pods_GQButtonTool_Example;
+			productReference = 3407A6A027B24750BEDAE84C865BDEAF /* Pods-GQButtonTool_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D53F18D1D213D6888CFFC3EBCDF43171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2BD13BD85D96153D6688B1FD14AADB /* GQButtonTool */,
+				F2DC1F3718131B58AE96C4607E642235 /* Pods-GQButtonTool_Example */,
+				21849060387F2DAB7C2A1E2C1BC3C7D2 /* Pods-GQButtonTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659D0812D92D4DC331BC34F28A971A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1D703E4AAA696EB4105A83EDC74536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844624B2A7307D92F66117C514082BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F2607486583EAD89FED2639A1BB352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00708220FC1076149EDF5E6D8F604DE0 /* GQButtonTool-dummy.m in Sources */,
+				4BE4DA0C72286581D41FD17B5D58384B /* UIButton+NoConnectionClick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981948B805C08ED26079E88CC6949C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511535C022AACD1E42B8A53229D2D37E /* Pods-GQButtonTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF2D4655D947A6C8C5D4CD548A58D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A312BA4FCCE397ACEF02425DDA3E9AA4 /* Pods-GQButtonTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08F88CAA5BCFDF0FD219C612AE76C397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GQButtonTool;
+			target = BA2BD13BD85D96153D6688B1FD14AADB /* GQButtonTool */;
+			targetProxy = 83AA57BD2DBC1FA629E4EF01C07D7A87 /* PBXContainerItemProxy */;
+		};
+		93010A254620B53EBB06DCD325154010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GQButtonTool_Example";
+			target = F2DC1F3718131B58AE96C4607E642235 /* Pods-GQButtonTool_Example */;
+			targetProxy = 27B9E6AC69695AAFC8C584E27E28CDA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A22C3D795CE3EABE380C97FCD0FC0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34C7C2EDE0C34C3798DA37740196934 /* GQButtonTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GQButtonTool/GQButtonTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GQButtonTool/GQButtonTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GQButtonTool/GQButtonTool.modulemap";
+				PRODUCT_MODULE_NAME = GQButtonTool;
+				PRODUCT_NAME = GQButtonTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6BD5FBE84ECD8692C008720AAB24F3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E352F070BED1C31F9ACB5723CD2E1674 /* Pods-GQButtonTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GQButtonTool_Tests/Pods-GQButtonTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQButtonTool_Tests/Pods-GQButtonTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A2ED1F7EC9FC1D0A830894CC74BBDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0980D0A32ABFE97912702A78DA9C785C /* GQButtonTool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GQButtonTool/GQButtonTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GQButtonTool/GQButtonTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GQButtonTool/GQButtonTool.modulemap";
+				PRODUCT_MODULE_NAME = GQButtonTool;
+				PRODUCT_NAME = GQButtonTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D4E45CE7099AB7EE7C3805A95CDAB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D7C61E167429F5DF41AD61AC005ED0 /* Pods-GQButtonTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GQButtonTool_Example/Pods-GQButtonTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQButtonTool_Example/Pods-GQButtonTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BA184A269E7152E07165E13FDBA1A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3A75D2126AD637FDDA56279C9596DE /* Pods-GQButtonTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GQButtonTool_Tests/Pods-GQButtonTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQButtonTool_Tests/Pods-GQButtonTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8EF7F60EB815AAFEA0074084DDEFE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC97623F7E30DD04BFA3720C40979C85 /* Pods-GQButtonTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GQButtonTool_Example/Pods-GQButtonTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GQButtonTool_Example/Pods-GQButtonTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC6CB2ED0A207E174FAF46D2D230C85 /* Build configuration list for PBXNativeTarget "GQButtonTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2ED1F7EC9FC1D0A830894CC74BBDB5 /* Debug */,
+				1A22C3D795CE3EABE380C97FCD0FC0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F4C59D993483DB4EF38117B5370D76 /* Build configuration list for PBXNativeTarget "Pods-GQButtonTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8EF7F60EB815AAFEA0074084DDEFE88 /* Debug */,
+				8D4E45CE7099AB7EE7C3805A95CDAB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0B55F8B498D0185A15A25CD3A3A9C9 /* Build configuration list for PBXNativeTarget "Pods-GQButtonTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD5FBE84ECD8692C008720AAB24F3CD /* Debug */,
+				9BA184A269E7152E07165E13FDBA1A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

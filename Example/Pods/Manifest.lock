@@ -1,0 +1,16 @@
+PODS:
+  - GQButtonTool (0.1.0)
+
+DEPENDENCIES:
+  - GQButtonTool (from `../`)
+
+EXTERNAL SOURCES:
+  GQButtonTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GQButtonTool: 762fbfa2ec3fab9f5910880ab3577f3844452ce6
+
+PODFILE CHECKSUM: 68b1b9193935490183da78885356b12a1d1b6b0a
+
+COCOAPODS: 1.11.2
