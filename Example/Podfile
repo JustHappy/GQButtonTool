@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GQButtonTool_Example' do
+  pod 'GQButtonTool', :path => '../'
+
+  target 'GQButtonTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
